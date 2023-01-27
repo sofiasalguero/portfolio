@@ -1,0 +1,30 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100vw;
+    background-color: #512A29;
+    position: fixed;
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 0.5rem;
+    
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.navbarLink{
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    color: #E7CFCD;
+    font-family: 'League Spartan', sans-serif;
+}
+    .navbarLink:hover{
+        color: #BA7978;
+    }
