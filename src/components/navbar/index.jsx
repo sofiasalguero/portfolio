@@ -10,10 +10,10 @@ const Navbar = () => {
              <img src="/logo.PNG" className="logo"/>
             </div>
             <div className='navbarContainer'>
-            <p className='navbarLink'>Home</p>
+            <Link to='./' className='navbarLink'>Home</Link>
             </div>
             <div className='navbarContainer'>
-                <p className='navbarLink'>Skills</p>
+                <Link to='./skills' className='navbarLink'>Skills</Link>
             </div>
             <div className='navbarContainer'>
                 <p className='navbarLink'>Portfolio</p>

@@ -4,8 +4,8 @@ import { Home, Skills } from "../Pages";
 const Router = () => {
     return(
         <Routes>
-            <Route exact path="/src/Pages/home" element={<Home/>}/>
-            <Route exact path="/src/Pages/skills" element={<Skills/>}/>
+            <Route exact path="/" element={<Home/>}/>
+            <Route exact path="/skills" element={<Skills/>}/>
            
         </Routes>
     )

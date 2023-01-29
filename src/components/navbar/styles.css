@@ -24,6 +24,10 @@
     font-size: 1.4rem;
     color: #E7CFCD;
     font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
     .navbarLink:hover{
         color: #BA7978;
