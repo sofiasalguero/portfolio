@@ -1,3 +1,103 @@
 .portfolio{
-    background-color: aqua;
+    height: auto;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittlePortfolio{
+    padding-top: 5rem;
+    color: #E7CFCD;
+    font-size: 2rem;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.ContainerPortfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 28vw;
+    height: auto;
+    background-color: #512A29;
+    border-radius: 5%;
+    margin: 1rem;
+    box-shadow: #1B0E0E
+    0px 30px 60px -12px inset,
+    #8E4A49  0px 18px 36px -18px inset;
+}
+
+.tittleWork{
+    font-size: 1.6rem;
+    color: #BA7978;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 2rem;
+}
+.descriptionwork{
+    font-size: 1rem;
+    color: #E7CFCD;
+    font-weight: 200;
+    font-family: 'League Spartan', sans-serif;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.imgPortfolio{
+    width: 20vw;
+    border-radius: 5%;
+}
+.imgPortfolioJavascript{
+    width: 20vw;
+    border-radius: 5%;
+}
+.buttonPortfolio{
+    background-color: #8E4A49;
+    border: #512A29;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+        .buttonPortfolio:hover{
+            scale: 1.1;
+        }
+
+.buttonPortfolio a{
+    color: #E7CFCD;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/*For Mobile*/
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+   .ContainerPortfolio{
+    flex-wrap: wrap;
+   }
+   .container{
+    width: 80vw;
+   }
+   .imgPortfolio{
+    width: 60vw;
+   }
+   .imgPortfolioJavascript{
+    width: 60vw;
+   }
+   .descriptionwork{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+   }
 }

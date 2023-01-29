@@ -20,6 +20,7 @@
     flex-wrap: wrap;
     height: 100vh;
     width: 90vw;
+    height: auto;
     padding-bottom: 5rem;
 }
 .skillContainer{
@@ -54,4 +55,17 @@
 }
 .iconSkills{
     height:20vh;
+    margin-bottom: 1rem;
+}
+
+/*For Mobile*/
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    .skillContainer{
+        width: 70vw;
+        height: 34vh;
+    }
+    .iconSkills{
+        margin-bottom: 2rem;
+    }
+
 }
