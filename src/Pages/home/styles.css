@@ -55,14 +55,14 @@
     }
 
 /*For Mobile*/
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (min-width: 250px) and (max-width: 800px) {
     .homeContainer{
         flex-direction: column;
         justify-content: center;
         width: 100vw;
     }
      .tittle{
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         text-align: center;
         animation: typingSmall 2s steps(14) 1s 1 normal both, blink 1s steps(1) infinite;
     }
