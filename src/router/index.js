@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, Skills } from "../Pages";
+import { Home, Skills, Portfolio } from "../Pages";
 
 const Router = () => {
     return(
         <Routes>
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/skills" element={<Skills/>}/>
-           
+            <Route exact path="/portfolio" element={<Portfolio/>}/>
         </Routes>
     )
 }

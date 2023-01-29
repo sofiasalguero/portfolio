@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Link to='./skills' className='navbarLink'>Skills</Link>
             </div>
             <div className='navbarContainer'>
-                <p className='navbarLink'>Portfolio</p>
+                <Link  to='./portfolio' className='navbarLink'>Portfolio</Link>
             </div>
         </nav>
     )
